@@ -3,7 +3,7 @@ layout: default
 title: Guía de configuración de Linux
 ---
 
-*Última modificación: 20 de septiembre de 2026 · [Santiago Gonzalez Galindo](https://github.com/SantiagoGonzalezGalindo)*
+*Última modificación: 20 de septiembre de 2026
 
 > **Aviso: lee la guía completa antes de ejecutar cualquier comando.** Varios pasos dependen de los anteriores y algunos modifican la configuración de arranque o de sesión del sistema. Ejecutarlos en desorden, a medias o copiando bloques sueltos puede dejarte sin entorno gráfico o sin poder iniciar sesión.
 
