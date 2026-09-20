@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 
-*Última modificación: 20 de septiembre de 2026
+*Última modificación: 20 de septiembre de 2026*
 
 > **Aviso: lee la guía completa antes de ejecutar cualquier comando.** Varios pasos dependen de los anteriores y algunos modifican la configuración de arranque o de sesión del sistema. Ejecutarlos en desorden, a medias o copiando bloques sueltos puede dejarte sin entorno gráfico o sin poder iniciar sesión.
 
@@ -20,7 +20,7 @@ Esto se probó en Nobara Linux (derivado de Fedora, usa DNF5) con KDE Plasma sob
 
 No necesitas dejar la laptop prendida en casa ni tener IP fija ni abrir puertos en el módem. Tailscale resuelve eso solo.
 
-Una advertencia antes de empezar: varios comandos que circulan por ahí para esto están mal escritos y te van a hacer perder media hora. Los de esta guía están verificados contra la documentación oficial de Tailscale. Al final hay una sección con los errores concretos para que no caigas en ellos.
+Una advertencia antes de empezar: varios comandos que circulan por ahí para esto están mal escritos y te van a hacer perder media hora. Los de esta guía están verificados contra la documentación oficial de Tailscale. En la parte 3 hay una sección con los errores concretos para que no caigas en ellos.
 
 ## Qué sentido tiene juntar todo esto
 

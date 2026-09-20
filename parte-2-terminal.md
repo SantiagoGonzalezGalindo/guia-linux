@@ -28,7 +28,7 @@ Para que la ventana del escritorio también quede adentro sin que te acuerdes ca
 
 La otra ventaja es que la sesión sobrevive a que cierres Termius, te quedes sin señal o cierres la tapa. Puedes dejar una compilación corriendo, guardar la laptop y volver desde el iPad a ver cómo va. Lo que sí la mata es apagar o reiniciar; suspender no, porque la memoria se conserva.
 
-## Cómo salirte sin matar la sesión
+### Cómo salirte sin matar la sesión
 
 Aquí es donde todo el mundo tropieza. El detach son dos pulsaciones separadas, no una combinación: presionas `Ctrl + b`, sueltas las dos teclas, y luego presionas `d` sola. Con eso solo se desconecta tu dispositivo y los demás siguen conectados.
 
@@ -36,7 +36,7 @@ Si presionas `Ctrl + d` estás mandando fin de entrada, que cierra la shell y ma
 
 Para cerrar una sesión a propósito, `tmux kill-session -t trabajo`.
 
-## Dos ajustes que valen la pena
+### Dos ajustes que valen la pena
 
 El prefijo `Ctrl + b` es incomodísimo en el teclado de un celular. Casi todos lo mueven a `Ctrl + a` con una línea en `~/.tmux.conf`:
 
@@ -74,7 +74,7 @@ Ahora `Ctrl + R` abre el buscador, y al escribir un comando te aparecen abajo lo
 
 Si más adelante instalas fzf, ten presente que él también quiere quedarse con `Ctrl + R`. No hay que hacer nada: Atuin se carga después y gana, que es lo que quieres porque su buscador es mejor. A fzf le quedan sus otros atajos intactos.
 
-## Otras que valen la pena
+### Otras que valen la pena
 
 No las instales todas el mismo día. Cada una cambia cómo se siente la terminal y si las metes juntas no vas a saber cuál te sirve y cuál te estorba.
 
@@ -98,7 +98,7 @@ Tampoco adivina tus carpetas. Su base de datos se llena con tus visitas, no esca
 
 Y ojo con la diferencia entre los dos comandos. `z practica1` salta directo. `zi` abre una lista interactiva de lo que ya conoce, así que con la base vacía te responde `no match found` aunque la carpeta esté ahí enfrente. El que vas a usar casi siempre es `z` a secas.
 
-## ble.sh, la sugerencia en gris
+### ble.sh, la sugerencia en gris
 
 Es el que se parece a VS Code: mientras escribes, te aparece en gris el resto del comando que ya usaste antes y lo aceptas con la flecha derecha. Además colorea la línea conforme la escribes, así que un comando mal armado se ve mal desde antes de presionar Enter.
 
